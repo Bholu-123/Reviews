@@ -1,0 +1,102 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(255, 248, 220, 0.582);
+  font-size: 67.5;
+}
+.container{
+  margin: 5rem auto 2rem auto;
+}
+.title{
+  text-align: center;
+  letter-spacing: .2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.underline{
+  width: 6rem;
+  height: 0.25rem;
+  background: cornflowerblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  width: 40%;
+  margin: 2rem auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);;
+}
+
+.card img{
+  width: 8rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  object-fit: cover;
+}
+
+.card h4{
+  font-size: 1.4rem;
+  color: #102A42;
+  margin-bottom: .8rem;
+  text-transform: capitalize;
+
+}
+
+.card .job{
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: .8rem;
+  color: #49a6E9;
+  text-transform: uppercase;
+}
+
+.card .info{
+  font-size: 1.2rem;
+  text-align: center;
+  color: #617D98;
+}
+
+.buttonContainer{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer button{
+  border: none;
+  outline: none;
+  color: #49a6E9;
+  font-size: 1.5rem;
+  background: none;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.randomBtn{
+  background-color: #EBF7FF;
+  color: #49a6E9;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: .5rem;
+  text-transform: uppercase;
+  /* margin-top: 1.5rem; */
+  text-align: center;
+  cursor: pointer;
+  margin: 1rem auto 1rem auto;
+}
